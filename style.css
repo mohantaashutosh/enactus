@@ -1,7 +1,11 @@
-.carousel{
-  background-color:#0c2740;
-  position: static;
-  max-height:100%;
+.home{
+  cursor:default;
+  background-image:url("virus.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  height:100%;
 }
 .contain{
   display:table-cell;
