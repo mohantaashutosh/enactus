@@ -1,0 +1,29 @@
+.heading{
+    margin-top:30px;
+    display:block;
+    width:100%;
+    font-size: 36px;
+}
+body{
+    background-color: #0C2740;
+}
+.body{
+    display:block;
+    width:100%;
+}
+.block{
+    color:#0C2740;
+    position:relative;
+    top:0px;
+    padding-top:30px;
+    padding-bottom:30px;
+    cursor:pointer;
+    margin:auto;
+    max-width:200px;
+    background-color:#D6E3E9;
+    transition:0.3s top, 0.3s box-shadow;
+}
+.block:hover{
+    top:-10px;
+    box-shadow:0 5px 10px 0 rgba(0,0,0,.3);
+}
